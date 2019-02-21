@@ -1,2 +1,21 @@
 The following steps will help users to run FunBoxOS under VirtualBox
 
+1. Download the latest FunBoxOS 1.0.2 ISO image from
+
+http://www.funboxos.org
+
+2. In VirtualBox, setup the 'Network' as 'Bridged Adapter' so that, we can access the FunBoxOS from the host OS.
+
+3. After booting the FunBoxOS, login as either
+
+Username/Password: root/root (or) funbox/funbox
+
+4. Configure the network using Static IP and through DHCP
+
+5. Access the Media Server from the host OS, using
+
+http://<guest-os-ip>:8096
+
+6. You will be greeted with JellyFin Personal Media Manager configuration interface.
+
+7. Complete the configuration to have your own Personal Media Server
